@@ -33,7 +33,8 @@ export default [
       }),
       copy({
         targets: [
-          { src: './src/styles/colors.module.scss', dest: 'dist/styles' }
+          { src: './src/styles/colors.module.scss', dest: 'dist/styles' },
+          { src: './src/assets', dest: 'dist' },
         ]
       })
     ],
