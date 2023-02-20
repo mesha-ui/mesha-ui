@@ -33,7 +33,7 @@ interface Props {
   [x: string]: any;
 }
 
-const Typography = ({
+export const Typography = ({
   text,
   textType,
   element,
@@ -53,5 +53,3 @@ const Typography = ({
     </Componentized>
   );
 };
-
-export default Typography;
