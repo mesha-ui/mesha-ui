@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/mesha-ui"
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "React component library",
   "scripts": {
     "rollup": "rollup -c"
@@ -19,6 +19,7 @@
     "node-sass": "^8.0.0",
     "react": "^18.2.0",
     "rollup": "^3.16.0",
+    "rollup-plugin-copy": "^3.4.0",
     "rollup-plugin-dts": "^5.2.0",
     "rollup-plugin-postcss": "^4.0.2",
     "sass": "^1.58.3",

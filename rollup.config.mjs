@@ -3,6 +3,7 @@ import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import dts from "rollup-plugin-dts";
 import postcss from "rollup-plugin-postcss";
+import copy from 'rollup-plugin-copy';
 
 import packageJson from "./package.json" assert { type: "json" };
 
@@ -30,6 +31,11 @@ export default [
         use: ['sass'],
         extract: true,
       }),
+      copy({
+        targets: [
+          { src: './src/styles/colors.module.scss', dest: 'dist/styles' }
+        ]
+      })
     ],
   },
   {
