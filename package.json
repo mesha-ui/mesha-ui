@@ -17,6 +17,8 @@
     "@rollup/plugin-typescript": "^11.0.0",
     "@types/react": "^18.0.28",
     "node-sass": "^8.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "^3.16.0",
     "rollup-plugin-copy": "^3.4.0",
     "rollup-plugin-dts": "^5.2.0",
@@ -35,6 +37,7 @@
     "@szhsin/react-menu": "^3.4.1"
   },
   "peerDependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
